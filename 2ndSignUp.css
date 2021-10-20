@@ -48,13 +48,13 @@ body {
 input {
   border: 0;
   outline: 0;
-  border-bottom: 2px solid blue;
+  border-bottom: 1px solid;
   margin-top: 10px;
 }
 .signUp-about{
     display: flex;
     flex-direction: column;
-    width: 330px;
+    width: 100%;
     height: 95px;
     justify-content: center;
     margin-top: 50px;
@@ -67,7 +67,7 @@ input {
     align-items: end;
 }
 .contact-email{
-    width: 330px;
+    width: 100%;
     height: 150px;
     margin-top: -2px;
     display: flex;
@@ -79,4 +79,5 @@ input {
     height: 482px;
     justify-content: center;
     align-items: end;
+    color: white;
 }
